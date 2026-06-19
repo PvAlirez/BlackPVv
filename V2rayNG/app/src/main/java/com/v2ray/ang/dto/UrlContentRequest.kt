@@ -1,4 +1,4 @@
-package com.v2ray.ang.dto
+package com.blacktun.hm.dto
 
 data class UrlContentRequest(
     val url: String?,

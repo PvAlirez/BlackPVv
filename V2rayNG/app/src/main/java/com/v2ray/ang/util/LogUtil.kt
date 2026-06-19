@@ -1,8 +1,8 @@
-package com.v2ray.ang.util
+package com.blacktun.hm.util
 
 import android.util.Log
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.handler.MmkvManager
+import com.blacktun.hm.AppConfig
+import com.blacktun.hm.handler.MmkvManager
 import java.util.Locale
 
 object LogUtil {

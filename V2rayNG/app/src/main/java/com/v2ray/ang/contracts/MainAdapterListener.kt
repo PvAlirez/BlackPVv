@@ -1,6 +1,6 @@
-package com.v2ray.ang.contracts
+package com.blacktun.hm.contracts
 
-import com.v2ray.ang.dto.entities.ProfileItem
+import com.blacktun.hm.dto.entities.ProfileItem
 
 interface MainAdapterListener : BaseAdapterListener {
 

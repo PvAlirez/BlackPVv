@@ -1,13 +1,13 @@
-package com.v2ray.ang.util
+package com.blacktun.hm.util
 
 import android.content.ComponentName
 import android.content.Context
 import android.content.Intent
 import android.os.Build
 import androidx.core.content.ContextCompat
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.dto.TestServiceMessage
-import com.v2ray.ang.service.CoreTestService
+import com.blacktun.hm.AppConfig
+import com.blacktun.hm.dto.TestServiceMessage
+import com.blacktun.hm.service.CoreTestService
 import java.io.Serializable
 
 object MessageUtil {

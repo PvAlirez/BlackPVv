@@ -1,10 +1,10 @@
-package com.v2ray.ang.service
+package com.blacktun.hm.service
 
 import android.content.Context
-import com.v2ray.ang.core.CoreConfigManager
-import com.v2ray.ang.core.CoreNativeManager
-import com.v2ray.ang.dto.RealPingEvent
-import com.v2ray.ang.handler.SettingsManager
+import com.blacktun.hm.core.CoreConfigManager
+import com.blacktun.hm.core.CoreNativeManager
+import com.blacktun.hm.dto.RealPingEvent
+import com.blacktun.hm.handler.SettingsManager
 import kotlinx.coroutines.CancellationException
 import kotlinx.coroutines.CoroutineName
 import kotlinx.coroutines.CoroutineScope

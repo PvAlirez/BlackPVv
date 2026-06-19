@@ -1,15 +1,15 @@
-package com.v2ray.ang.service
+package com.blacktun.hm.service
 
 import android.app.Service
 import android.content.Context
 import android.content.Intent
 import android.os.IBinder
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.contracts.ServiceControl
-import com.v2ray.ang.core.CoreServiceManager
-import com.v2ray.ang.handler.SettingsManager
-import com.v2ray.ang.util.LogUtil
-import com.v2ray.ang.util.MyContextWrapper
+import com.blacktun.hm.AppConfig
+import com.blacktun.hm.contracts.ServiceControl
+import com.blacktun.hm.core.CoreServiceManager
+import com.blacktun.hm.handler.SettingsManager
+import com.blacktun.hm.util.LogUtil
+import com.blacktun.hm.util.MyContextWrapper
 import java.lang.ref.SoftReference
 
 class CoreProxyOnlyService : Service(), ServiceControl {

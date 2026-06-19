@@ -1,25 +1,25 @@
-package com.v2ray.ang.core
+package com.blacktun.hm.core
 
 import android.content.Context
 import android.text.TextUtils
 import com.google.gson.JsonArray
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.dto.ConfigResult
-import com.v2ray.ang.dto.CoreConfigContext
-import com.v2ray.ang.dto.V2rayConfig
-import com.v2ray.ang.dto.entities.ProfileItem
-import com.v2ray.ang.dto.entities.RulesetItem
-import com.v2ray.ang.enums.BalancerStrategyType
-import com.v2ray.ang.enums.CoreResolvedType
-import com.v2ray.ang.enums.EConfigType
-import com.v2ray.ang.extension.isNotNullEmpty
-import com.v2ray.ang.handler.MmkvManager
-import com.v2ray.ang.handler.SettingsManager
-import com.v2ray.ang.util.HttpUtil
-import com.v2ray.ang.util.JsonUtil
-import com.v2ray.ang.util.LogUtil
-import com.v2ray.ang.util.PackageUidResolver
-import com.v2ray.ang.util.Utils
+import com.blacktun.hm.AppConfig
+import com.blacktun.hm.dto.ConfigResult
+import com.blacktun.hm.dto.CoreConfigContext
+import com.blacktun.hm.dto.V2rayConfig
+import com.blacktun.hm.dto.entities.ProfileItem
+import com.blacktun.hm.dto.entities.RulesetItem
+import com.blacktun.hm.enums.BalancerStrategyType
+import com.blacktun.hm.enums.CoreResolvedType
+import com.blacktun.hm.enums.EConfigType
+import com.blacktun.hm.extension.isNotNullEmpty
+import com.blacktun.hm.handler.MmkvManager
+import com.blacktun.hm.handler.SettingsManager
+import com.blacktun.hm.util.HttpUtil
+import com.blacktun.hm.util.JsonUtil
+import com.blacktun.hm.util.LogUtil
+import com.blacktun.hm.util.PackageUidResolver
+import com.blacktun.hm.util.Utils
 
 object CoreConfigManager {
     private var initConfigCache: String? = null

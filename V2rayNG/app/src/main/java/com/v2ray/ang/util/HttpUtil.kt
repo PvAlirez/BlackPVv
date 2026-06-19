@@ -1,9 +1,9 @@
-package com.v2ray.ang.util
+package com.blacktun.hm.util
 
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.AppConfig.LOOPBACK
-import com.v2ray.ang.BuildConfig
-import com.v2ray.ang.dto.UrlContentRequest
+import com.blacktun.hm.AppConfig
+import com.blacktun.hm.AppConfig.LOOPBACK
+import com.blacktun.hm.BuildConfig
+import com.blacktun.hm.dto.UrlContentRequest
 import okhttp3.Credentials
 import okhttp3.OkHttpClient
 import okhttp3.Request

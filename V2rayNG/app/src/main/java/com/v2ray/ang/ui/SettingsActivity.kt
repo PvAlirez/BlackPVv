@@ -1,4 +1,4 @@
-package com.v2ray.ang.ui
+package com.blacktun.hm.ui
 
 import android.os.Bundle
 import android.view.View
@@ -6,12 +6,12 @@ import androidx.preference.CheckBoxPreference
 import androidx.preference.EditTextPreference
 import androidx.preference.ListPreference
 import androidx.preference.PreferenceFragmentCompat
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.AppConfig.VPN
-import com.v2ray.ang.R
-import com.v2ray.ang.handler.MmkvManager
-import com.v2ray.ang.helper.MmkvPreferenceDataStore
-import com.v2ray.ang.util.Utils
+import com.blacktun.hm.AppConfig
+import com.blacktun.hm.AppConfig.VPN
+import com.blacktun.hm.R
+import com.blacktun.hm.handler.MmkvManager
+import com.blacktun.hm.helper.MmkvPreferenceDataStore
+import com.blacktun.hm.util.Utils
 
 class SettingsActivity : BaseActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

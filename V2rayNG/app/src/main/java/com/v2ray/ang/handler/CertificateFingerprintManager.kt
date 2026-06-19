@@ -1,14 +1,14 @@
-package com.v2ray.ang.handler
+package com.blacktun.hm.handler
 
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.dto.CertSha256Request
-import com.v2ray.ang.dto.CertSha256Result
-import com.v2ray.ang.dto.entities.ProfileItem
-import com.v2ray.ang.enums.EConfigType
-import com.v2ray.ang.util.HttpUtil
-import com.v2ray.ang.util.JsonUtil
-import com.v2ray.ang.util.LogUtil
-import com.v2ray.ang.util.Utils
+import com.blacktun.hm.AppConfig
+import com.blacktun.hm.dto.CertSha256Request
+import com.blacktun.hm.dto.CertSha256Result
+import com.blacktun.hm.dto.entities.ProfileItem
+import com.blacktun.hm.enums.EConfigType
+import com.blacktun.hm.util.HttpUtil
+import com.blacktun.hm.util.JsonUtil
+import com.blacktun.hm.util.LogUtil
+import com.blacktun.hm.util.Utils
 import libv2ray.Libv2ray
 
 object CertificateFingerprintManager {

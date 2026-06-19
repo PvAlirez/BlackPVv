@@ -1,9 +1,9 @@
-package com.v2ray.ang.viewmodel
+package com.blacktun.hm.viewmodel
 
 import androidx.lifecycle.ViewModel
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.AppConfig.ANG_PACKAGE
-import com.v2ray.ang.util.LogUtil
+import com.blacktun.hm.AppConfig
+import com.blacktun.hm.AppConfig.ANG_PACKAGE
+import com.blacktun.hm.util.LogUtil
 import java.io.IOException
 
 class LogcatViewModel : ViewModel() {

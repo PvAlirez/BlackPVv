@@ -1,11 +1,11 @@
-package com.v2ray.ang.ui
+package com.blacktun.hm.ui
 
 import android.content.Intent
 import android.os.Bundle
-import com.v2ray.ang.R
-import com.v2ray.ang.extension.toastError
-import com.v2ray.ang.extension.toastSuccess
-import com.v2ray.ang.handler.AngConfigManager
+import com.blacktun.hm.R
+import com.blacktun.hm.extension.toastError
+import com.blacktun.hm.extension.toastSuccess
+import com.blacktun.hm.handler.AngConfigManager
 
 class ScScannerActivity : HelperBaseActivity() {
 

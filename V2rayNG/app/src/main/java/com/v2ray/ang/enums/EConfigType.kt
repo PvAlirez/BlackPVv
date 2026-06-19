@@ -1,6 +1,6 @@
-package com.v2ray.ang.enums
+package com.blacktun.hm.enums
 
-import com.v2ray.ang.AppConfig
+import com.blacktun.hm.AppConfig
 
 enum class EConfigType(val value: Int, val protocolScheme: String) {
     VMESS(1, AppConfig.VMESS),

@@ -1,13 +1,13 @@
-package com.v2ray.ang.helper
+package com.blacktun.hm.helper
 
 import android.content.pm.PackageManager
 import androidx.activity.result.ActivityResultLauncher
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
-import com.v2ray.ang.R
-import com.v2ray.ang.enums.PermissionType
-import com.v2ray.ang.extension.toast
+import com.blacktun.hm.R
+import com.blacktun.hm.enums.PermissionType
+import com.blacktun.hm.extension.toast
 
 /**
  * Helper for requesting permissions.

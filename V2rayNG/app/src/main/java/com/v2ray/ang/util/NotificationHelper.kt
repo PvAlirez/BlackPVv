@@ -1,4 +1,4 @@
-package com.v2ray.ang.util
+package com.blacktun.hm.util
 
 import android.app.Notification
 import android.app.NotificationChannel
@@ -7,8 +7,8 @@ import android.app.Service
 import android.content.Context
 import android.os.Build
 import androidx.core.app.NotificationCompat
-import com.v2ray.ang.R
-import com.v2ray.ang.enums.NotificationChannelType
+import com.blacktun.hm.R
+import com.blacktun.hm.enums.NotificationChannelType
 
 /**
  * Unified notification helper for different notification channels.

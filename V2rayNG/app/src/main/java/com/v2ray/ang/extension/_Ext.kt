@@ -1,4 +1,4 @@
-package com.v2ray.ang.extension
+package com.blacktun.hm.extension
 
 import android.content.BroadcastReceiver
 import android.content.Context
@@ -7,8 +7,8 @@ import android.content.IntentFilter
 import android.os.Build
 import android.os.Bundle
 import android.widget.Toast
-import com.v2ray.ang.AngApplication
-import com.v2ray.ang.enums.EConfigType
+import com.blacktun.hm.AngApplication
+import com.blacktun.hm.enums.EConfigType
 import es.dmoral.toasty.Toasty
 import java.io.Serializable
 import java.net.URI

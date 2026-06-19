@@ -1,8 +1,8 @@
-package com.v2ray.ang.service
+package com.blacktun.hm.service
 
 import android.content.Context
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.util.LogUtil
+import com.blacktun.hm.AppConfig
+import com.blacktun.hm.util.LogUtil
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch

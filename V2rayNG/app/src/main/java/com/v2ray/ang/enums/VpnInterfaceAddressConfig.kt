@@ -1,4 +1,4 @@
-package com.v2ray.ang.enums
+package com.blacktun.hm.enums
 
 /**
  * VPN interface address configuration enum class

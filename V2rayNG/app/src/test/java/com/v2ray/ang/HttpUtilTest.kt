@@ -1,6 +1,6 @@
-package com.v2ray.ang
+package com.blacktun.hm
 
-import com.v2ray.ang.util.HttpUtil
+import com.blacktun.hm.util.HttpUtil
 import org.junit.Assert.assertEquals
 import org.junit.Test
 

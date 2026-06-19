@@ -1,11 +1,11 @@
-package com.v2ray.ang.ui
+package com.blacktun.hm.ui
 
 import android.net.Uri
 import android.os.Bundle
-import com.v2ray.ang.enums.PermissionType
-import com.v2ray.ang.helper.FileChooserHelper
-import com.v2ray.ang.helper.PermissionHelper
-import com.v2ray.ang.helper.QRCodeScannerHelper
+import com.blacktun.hm.enums.PermissionType
+import com.blacktun.hm.helper.FileChooserHelper
+import com.blacktun.hm.helper.PermissionHelper
+import com.blacktun.hm.helper.QRCodeScannerHelper
 
 /**
  * HelperBaseActivity extends BaseActivity and provides additional helpers for

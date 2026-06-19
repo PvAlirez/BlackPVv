@@ -1,6 +1,6 @@
-package com.v2ray.ang.util
+package com.blacktun.hm.util
 
-import com.v2ray.ang.AppConfig
+import com.blacktun.hm.AppConfig
 import java.io.BufferedOutputStream
 import java.io.File
 import java.io.FileInputStream

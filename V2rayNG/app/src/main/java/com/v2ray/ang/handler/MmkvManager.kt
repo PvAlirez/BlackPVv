@@ -1,19 +1,19 @@
-package com.v2ray.ang.handler
+package com.blacktun.hm.handler
 
 import com.tencent.mmkv.MMKV
-import com.v2ray.ang.AppConfig.DEFAULT_SUBSCRIPTION_ID
-import com.v2ray.ang.AppConfig.PREF_IS_BOOTED
-import com.v2ray.ang.AppConfig.PREF_ROUTING_RULESET
-import com.v2ray.ang.dto.entities.AssetUrlCache
-import com.v2ray.ang.dto.entities.AssetUrlItem
-import com.v2ray.ang.dto.entities.ProfileItem
-import com.v2ray.ang.dto.entities.RulesetItem
-import com.v2ray.ang.dto.entities.ServerAffiliationInfo
-import com.v2ray.ang.dto.entities.SubscriptionCache
-import com.v2ray.ang.dto.entities.SubscriptionItem
-import com.v2ray.ang.dto.entities.WebDavConfig
-import com.v2ray.ang.util.JsonUtil
-import com.v2ray.ang.util.Utils
+import com.blacktun.hm.AppConfig.DEFAULT_SUBSCRIPTION_ID
+import com.blacktun.hm.AppConfig.PREF_IS_BOOTED
+import com.blacktun.hm.AppConfig.PREF_ROUTING_RULESET
+import com.blacktun.hm.dto.entities.AssetUrlCache
+import com.blacktun.hm.dto.entities.AssetUrlItem
+import com.blacktun.hm.dto.entities.ProfileItem
+import com.blacktun.hm.dto.entities.RulesetItem
+import com.blacktun.hm.dto.entities.ServerAffiliationInfo
+import com.blacktun.hm.dto.entities.SubscriptionCache
+import com.blacktun.hm.dto.entities.SubscriptionItem
+import com.blacktun.hm.dto.entities.WebDavConfig
+import com.blacktun.hm.util.JsonUtil
+import com.blacktun.hm.util.Utils
 
 object MmkvManager {
 

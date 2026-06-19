@@ -1,11 +1,11 @@
-package com.v2ray.ang.viewmodel
+package com.blacktun.hm.viewmodel
 
 import androidx.lifecycle.ViewModel
-import com.v2ray.ang.dto.entities.SubscriptionCache
-import com.v2ray.ang.dto.entities.SubscriptionItem
-import com.v2ray.ang.handler.MmkvManager
-import com.v2ray.ang.handler.SettingsChangeManager
-import com.v2ray.ang.handler.SettingsManager
+import com.blacktun.hm.dto.entities.SubscriptionCache
+import com.blacktun.hm.dto.entities.SubscriptionItem
+import com.blacktun.hm.handler.MmkvManager
+import com.blacktun.hm.handler.SettingsChangeManager
+import com.blacktun.hm.handler.SettingsManager
 
 class SubscriptionsViewModel : ViewModel() {
     private val subscriptions: MutableList<SubscriptionCache> =

@@ -1,12 +1,12 @@
-package com.v2ray.ang.ui
+package com.blacktun.hm.ui
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.databinding.ItemRecyclerLogcatBinding
-import com.v2ray.ang.util.LogUtil
-import com.v2ray.ang.viewmodel.LogcatViewModel
+import com.blacktun.hm.AppConfig
+import com.blacktun.hm.databinding.ItemRecyclerLogcatBinding
+import com.blacktun.hm.util.LogUtil
+import com.blacktun.hm.viewmodel.LogcatViewModel
 
 class LogcatRecyclerAdapter(
     private val viewModel: LogcatViewModel,

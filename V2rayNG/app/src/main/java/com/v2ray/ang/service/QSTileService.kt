@@ -1,4 +1,4 @@
-package com.v2ray.ang.service
+package com.blacktun.hm.service
 
 import android.content.BroadcastReceiver
 import android.content.Context
@@ -8,12 +8,12 @@ import android.graphics.drawable.Icon
 import android.service.quicksettings.Tile
 import android.service.quicksettings.TileService
 import androidx.core.content.ContextCompat
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.R
-import com.v2ray.ang.core.CoreServiceManager
-import com.v2ray.ang.util.LogUtil
-import com.v2ray.ang.util.MessageUtil
-import com.v2ray.ang.util.Utils
+import com.blacktun.hm.AppConfig
+import com.blacktun.hm.R
+import com.blacktun.hm.core.CoreServiceManager
+import com.blacktun.hm.util.LogUtil
+import com.blacktun.hm.util.MessageUtil
+import com.blacktun.hm.util.Utils
 import java.lang.ref.SoftReference
 
 class QSTileService : TileService() {

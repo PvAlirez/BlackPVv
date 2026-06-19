@@ -1,11 +1,11 @@
-package com.v2ray.ang.fmt
+package com.blacktun.hm.fmt
 
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.dto.entities.ProfileItem
-import com.v2ray.ang.enums.NetworkType
-import com.v2ray.ang.extension.nullIfBlank
-import com.v2ray.ang.util.HttpUtil
-import com.v2ray.ang.util.Utils
+import com.blacktun.hm.AppConfig
+import com.blacktun.hm.dto.entities.ProfileItem
+import com.blacktun.hm.enums.NetworkType
+import com.blacktun.hm.extension.nullIfBlank
+import com.blacktun.hm.util.HttpUtil
+import com.blacktun.hm.util.Utils
 import java.net.URI
 
 open class FmtBase {

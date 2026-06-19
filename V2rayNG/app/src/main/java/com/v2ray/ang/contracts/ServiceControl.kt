@@ -1,4 +1,4 @@
-package com.v2ray.ang.contracts
+package com.blacktun.hm.contracts
 
 import android.app.Service
 

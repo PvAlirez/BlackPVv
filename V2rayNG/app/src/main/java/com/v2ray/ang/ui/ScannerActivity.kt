@@ -1,17 +1,17 @@
-package com.v2ray.ang.ui
+package com.blacktun.hm.ui
 
 import android.content.Intent
 import android.graphics.BitmapFactory
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.R
-import com.v2ray.ang.databinding.ActivityNoneBinding
-import com.v2ray.ang.extension.toast
-import com.v2ray.ang.handler.MmkvManager
-import com.v2ray.ang.util.LogUtil
-import com.v2ray.ang.util.QRCodeDecoder
+import com.blacktun.hm.AppConfig
+import com.blacktun.hm.R
+import com.blacktun.hm.databinding.ActivityNoneBinding
+import com.blacktun.hm.extension.toast
+import com.blacktun.hm.handler.MmkvManager
+import com.blacktun.hm.util.LogUtil
+import com.blacktun.hm.util.QRCodeDecoder
 import io.github.g00fy2.quickie.QRResult
 import io.github.g00fy2.quickie.ScanCustomCode
 import io.github.g00fy2.quickie.config.BarcodeFormat

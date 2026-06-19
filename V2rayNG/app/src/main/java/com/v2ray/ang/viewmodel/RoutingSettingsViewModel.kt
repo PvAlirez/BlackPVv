@@ -1,9 +1,9 @@
-package com.v2ray.ang.viewmodel
+package com.blacktun.hm.viewmodel
 
 import androidx.lifecycle.ViewModel
-import com.v2ray.ang.dto.entities.RulesetItem
-import com.v2ray.ang.handler.MmkvManager
-import com.v2ray.ang.handler.SettingsManager
+import com.blacktun.hm.dto.entities.RulesetItem
+import com.blacktun.hm.handler.MmkvManager
+import com.blacktun.hm.handler.SettingsManager
 
 class RoutingSettingsViewModel : ViewModel() {
     private val rulesets: MutableList<RulesetItem> = mutableListOf()

@@ -1,4 +1,4 @@
-package com.v2ray.ang.receiver
+package com.blacktun.hm.receiver
 
 import android.app.PendingIntent
 import android.appwidget.AppWidgetManager
@@ -7,9 +7,9 @@ import android.content.ComponentName
 import android.content.Context
 import android.content.Intent
 import android.widget.RemoteViews
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.R
-import com.v2ray.ang.core.CoreServiceManager
+import com.blacktun.hm.AppConfig
+import com.blacktun.hm.R
+import com.blacktun.hm.core.CoreServiceManager
 
 class WidgetProvider : AppWidgetProvider() {
     /**

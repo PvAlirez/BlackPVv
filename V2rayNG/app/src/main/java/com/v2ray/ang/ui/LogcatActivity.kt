@@ -1,4 +1,4 @@
-package com.v2ray.ang.ui
+package com.blacktun.hm.ui
 
 import android.annotation.SuppressLint
 import android.content.ClipData
@@ -11,12 +11,12 @@ import androidx.appcompat.widget.SearchView
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout
-import com.v2ray.ang.R
-import com.v2ray.ang.databinding.ActivityLogcatBinding
-import com.v2ray.ang.extension.toast
-import com.v2ray.ang.extension.toastSuccess
-import com.v2ray.ang.util.Utils
-import com.v2ray.ang.viewmodel.LogcatViewModel
+import com.blacktun.hm.R
+import com.blacktun.hm.databinding.ActivityLogcatBinding
+import com.blacktun.hm.extension.toast
+import com.blacktun.hm.extension.toastSuccess
+import com.blacktun.hm.util.Utils
+import com.blacktun.hm.viewmodel.LogcatViewModel
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext

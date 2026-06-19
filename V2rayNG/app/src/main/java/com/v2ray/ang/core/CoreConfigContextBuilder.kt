@@ -1,17 +1,17 @@
-package com.v2ray.ang.core
+package com.blacktun.hm.core
 
 import android.content.Context
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.dto.CoreConfigContext
-import com.v2ray.ang.dto.entities.ProfileItem
-import com.v2ray.ang.enums.CoreResolvedType
-import com.v2ray.ang.enums.EConfigType
-import com.v2ray.ang.extension.isComplexType
-import com.v2ray.ang.extension.isNotNullEmpty
-import com.v2ray.ang.handler.MmkvManager
-import com.v2ray.ang.handler.SettingsManager
-import com.v2ray.ang.util.LogUtil
-import com.v2ray.ang.util.Utils
+import com.blacktun.hm.AppConfig
+import com.blacktun.hm.dto.CoreConfigContext
+import com.blacktun.hm.dto.entities.ProfileItem
+import com.blacktun.hm.enums.CoreResolvedType
+import com.blacktun.hm.enums.EConfigType
+import com.blacktun.hm.extension.isComplexType
+import com.blacktun.hm.extension.isNotNullEmpty
+import com.blacktun.hm.handler.MmkvManager
+import com.blacktun.hm.handler.SettingsManager
+import com.blacktun.hm.util.LogUtil
+import com.blacktun.hm.util.Utils
 
 /**
  * Build runtime context from the selected profile.

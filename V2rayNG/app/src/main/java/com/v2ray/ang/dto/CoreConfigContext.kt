@@ -1,8 +1,8 @@
-package com.v2ray.ang.dto
+package com.blacktun.hm.dto
 
 import android.content.Context
-import com.v2ray.ang.dto.entities.ProfileItem
-import com.v2ray.ang.enums.CoreResolvedType
+import com.blacktun.hm.dto.entities.ProfileItem
+import com.blacktun.hm.enums.CoreResolvedType
 
 data class CoreConfigContext(
     val context: Context,

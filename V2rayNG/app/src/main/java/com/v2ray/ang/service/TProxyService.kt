@@ -1,12 +1,12 @@
-package com.v2ray.ang.service
+package com.blacktun.hm.service
 
 import android.content.Context
 import android.os.ParcelFileDescriptor
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.contracts.Tun2SocksControl
-import com.v2ray.ang.handler.MmkvManager
-import com.v2ray.ang.handler.SettingsManager
-import com.v2ray.ang.util.LogUtil
+import com.blacktun.hm.AppConfig
+import com.blacktun.hm.contracts.Tun2SocksControl
+import com.blacktun.hm.handler.MmkvManager
+import com.blacktun.hm.handler.SettingsManager
+import com.blacktun.hm.util.LogUtil
 import java.io.File
 
 /**

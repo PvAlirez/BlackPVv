@@ -1,9 +1,9 @@
-package com.v2ray.ang.core
+package com.blacktun.hm.core
 
 import android.content.Context
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.util.LogUtil
-import com.v2ray.ang.util.Utils
+import com.blacktun.hm.AppConfig
+import com.blacktun.hm.util.LogUtil
+import com.blacktun.hm.util.Utils
 import go.Seq
 import libv2ray.CoreCallbackHandler
 import libv2ray.CoreController

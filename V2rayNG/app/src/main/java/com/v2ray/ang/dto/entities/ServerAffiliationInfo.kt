@@ -1,4 +1,4 @@
-package com.v2ray.ang.dto.entities
+package com.blacktun.hm.dto.entities
 
 data class ServerAffiliationInfo(var testDelayMillis: Long = 0L) {
     fun getTestDelayString(): String {

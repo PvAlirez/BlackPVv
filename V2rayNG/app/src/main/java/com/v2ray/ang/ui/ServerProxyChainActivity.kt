@@ -1,4 +1,4 @@
-package com.v2ray.ang.ui
+package com.blacktun.hm.ui
 
 import android.os.Bundle
 import android.text.TextUtils
@@ -7,20 +7,20 @@ import android.view.MenuItem
 import androidx.appcompat.app.AlertDialog
 import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.R
-import com.v2ray.ang.contracts.BaseAdapterListener
-import com.v2ray.ang.databinding.ActivityServerProxyChainBinding
-import com.v2ray.ang.dto.entities.ProfileItem
-import com.v2ray.ang.enums.EConfigType
-import com.v2ray.ang.extension.isComplexType
-import com.v2ray.ang.extension.toast
-import com.v2ray.ang.extension.toastSuccess
-import com.v2ray.ang.handler.MmkvManager
-import com.v2ray.ang.handler.SettingsChangeManager
-import com.v2ray.ang.handler.SettingsManager
-import com.v2ray.ang.helper.SimpleItemTouchHelperCallback
-import com.v2ray.ang.util.Utils
+import com.blacktun.hm.AppConfig
+import com.blacktun.hm.R
+import com.blacktun.hm.contracts.BaseAdapterListener
+import com.blacktun.hm.databinding.ActivityServerProxyChainBinding
+import com.blacktun.hm.dto.entities.ProfileItem
+import com.blacktun.hm.enums.EConfigType
+import com.blacktun.hm.extension.isComplexType
+import com.blacktun.hm.extension.toast
+import com.blacktun.hm.extension.toastSuccess
+import com.blacktun.hm.handler.MmkvManager
+import com.blacktun.hm.handler.SettingsChangeManager
+import com.blacktun.hm.handler.SettingsManager
+import com.blacktun.hm.helper.SimpleItemTouchHelperCallback
+import com.blacktun.hm.util.Utils
 
 class ServerProxyChainActivity : BaseActivity() {
     private val binding by lazy { ActivityServerProxyChainBinding.inflate(layoutInflater) }

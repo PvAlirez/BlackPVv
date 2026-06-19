@@ -1,4 +1,4 @@
-package com.v2ray.ang.handler
+package com.blacktun.hm.handler
 
 import android.app.Notification
 import android.app.NotificationChannel
@@ -11,13 +11,13 @@ import android.graphics.Color
 import android.os.Build
 import androidx.annotation.RequiresApi
 import androidx.core.app.NotificationCompat
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.R
-import com.v2ray.ang.core.CoreServiceManager
-import com.v2ray.ang.dto.entities.ProfileItem
-import com.v2ray.ang.extension.toSpeedString
-import com.v2ray.ang.ui.MainActivity
-import com.v2ray.ang.util.LogUtil
+import com.blacktun.hm.AppConfig
+import com.blacktun.hm.R
+import com.blacktun.hm.core.CoreServiceManager
+import com.blacktun.hm.dto.entities.ProfileItem
+import com.blacktun.hm.extension.toSpeedString
+import com.blacktun.hm.ui.MainActivity
+import com.blacktun.hm.util.LogUtil
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job

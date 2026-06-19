@@ -1,4 +1,4 @@
-package com.v2ray.ang.ui
+package com.blacktun.hm.ui
 
 import android.os.Bundle
 import android.text.TextUtils
@@ -9,18 +9,18 @@ import android.widget.AutoCompleteTextView
 import android.widget.ImageButton
 import androidx.appcompat.app.AlertDialog
 import androidx.lifecycle.lifecycleScope
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.R
-import com.v2ray.ang.databinding.ActivitySubEditBinding
-import com.v2ray.ang.dto.entities.SubscriptionItem
-import com.v2ray.ang.enums.EConfigType
-import com.v2ray.ang.extension.toast
-import com.v2ray.ang.extension.toastSuccess
-import com.v2ray.ang.handler.MmkvManager
-import com.v2ray.ang.handler.SettingsChangeManager
-import com.v2ray.ang.handler.SettingsManager
-import com.v2ray.ang.handler.SubscriptionUpdater
-import com.v2ray.ang.util.Utils
+import com.blacktun.hm.AppConfig
+import com.blacktun.hm.R
+import com.blacktun.hm.databinding.ActivitySubEditBinding
+import com.blacktun.hm.dto.entities.SubscriptionItem
+import com.blacktun.hm.enums.EConfigType
+import com.blacktun.hm.extension.toast
+import com.blacktun.hm.extension.toastSuccess
+import com.blacktun.hm.handler.MmkvManager
+import com.blacktun.hm.handler.SettingsChangeManager
+import com.blacktun.hm.handler.SettingsManager
+import com.blacktun.hm.handler.SubscriptionUpdater
+import com.blacktun.hm.util.Utils
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 

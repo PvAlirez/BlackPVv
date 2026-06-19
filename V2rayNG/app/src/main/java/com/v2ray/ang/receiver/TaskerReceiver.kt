@@ -1,12 +1,12 @@
-package com.v2ray.ang.receiver
+package com.blacktun.hm.receiver
 
 import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
 import android.text.TextUtils
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.core.CoreServiceManager
-import com.v2ray.ang.util.LogUtil
+import com.blacktun.hm.AppConfig
+import com.blacktun.hm.core.CoreServiceManager
+import com.blacktun.hm.util.LogUtil
 
 class TaskerReceiver : BroadcastReceiver() {
 

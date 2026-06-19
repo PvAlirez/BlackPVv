@@ -1,8 +1,8 @@
-package com.v2ray.ang.dto.entities
+package com.blacktun.hm.dto.entities
 
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.enums.EConfigType
-import com.v2ray.ang.util.Utils
+import com.blacktun.hm.AppConfig
+import com.blacktun.hm.enums.EConfigType
+import com.blacktun.hm.util.Utils
 
 data class ProfileItem(
     val configVersion: Int = 4,

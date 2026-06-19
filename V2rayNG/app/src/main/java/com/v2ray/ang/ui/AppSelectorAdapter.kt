@@ -1,11 +1,11 @@
-package com.v2ray.ang.ui
+package com.blacktun.hm.ui
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.v2ray.ang.databinding.ItemRecyclerBypassListBinding
-import com.v2ray.ang.dto.AppInfo
+import com.blacktun.hm.databinding.ItemRecyclerBypassListBinding
+import com.blacktun.hm.dto.AppInfo
 
 class AppSelectorAdapter(
     private val selectedPackages: MutableSet<String>

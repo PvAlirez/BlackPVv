@@ -1,14 +1,14 @@
-package com.v2ray.ang.fmt
+package com.blacktun.hm.fmt
 
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.dto.entities.ProfileItem
-import com.v2ray.ang.enums.EConfigType
-import com.v2ray.ang.enums.NetworkType
-import com.v2ray.ang.extension.idnHost
-import com.v2ray.ang.extension.isNotNullEmpty
-import com.v2ray.ang.extension.nullIfBlank
-import com.v2ray.ang.handler.MmkvManager
-import com.v2ray.ang.util.Utils
+import com.blacktun.hm.AppConfig
+import com.blacktun.hm.dto.entities.ProfileItem
+import com.blacktun.hm.enums.EConfigType
+import com.blacktun.hm.enums.NetworkType
+import com.blacktun.hm.extension.idnHost
+import com.blacktun.hm.extension.isNotNullEmpty
+import com.blacktun.hm.extension.nullIfBlank
+import com.blacktun.hm.handler.MmkvManager
+import com.blacktun.hm.util.Utils
 import java.net.URI
 
 object Hysteria2Fmt : FmtBase() {

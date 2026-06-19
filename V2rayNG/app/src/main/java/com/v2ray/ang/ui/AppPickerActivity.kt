@@ -1,4 +1,4 @@
-package com.v2ray.ang.ui
+package com.blacktun.hm.ui
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -8,12 +8,12 @@ import android.view.Menu
 import android.view.MenuItem
 import androidx.appcompat.widget.SearchView
 import androidx.lifecycle.lifecycleScope
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.R
-import com.v2ray.ang.databinding.ActivityAppPickerBinding
-import com.v2ray.ang.dto.AppInfo
-import com.v2ray.ang.util.AppManagerUtil
-import com.v2ray.ang.util.LogUtil
+import com.blacktun.hm.AppConfig
+import com.blacktun.hm.R
+import com.blacktun.hm.databinding.ActivityAppPickerBinding
+import com.blacktun.hm.dto.AppInfo
+import com.blacktun.hm.util.AppManagerUtil
+import com.blacktun.hm.util.LogUtil
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext

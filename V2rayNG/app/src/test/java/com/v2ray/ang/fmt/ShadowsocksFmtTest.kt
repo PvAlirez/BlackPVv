@@ -1,9 +1,9 @@
-package com.v2ray.ang.fmt
+package com.blacktun.hm.fmt
 
 import android.util.Base64
-import com.v2ray.ang.util.LogUtil
-import com.v2ray.ang.enums.EConfigType
-import com.v2ray.ang.dto.entities.ProfileItem
+import com.blacktun.hm.util.LogUtil
+import com.blacktun.hm.enums.EConfigType
+import com.blacktun.hm.dto.entities.ProfileItem
 import org.junit.After
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertFalse

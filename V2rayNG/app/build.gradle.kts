@@ -5,15 +5,15 @@ plugins {
 }
 
 android {
-    namespace = "com.v2ray.ang"
+    namespace = "com.blacktun.hm"
     compileSdk = 37
 
     defaultConfig {
-        applicationId = "com.v2ray.ang"
+        applicationId = "com.blacktun.hm"
         minSdk = 24
         targetSdk = 37
         versionCode = 734
-        versionName = "2.2.4"
+        versionName = "1.0.0"
         multiDexEnabled = true
 
         val abiFilterList = (properties["ABI_FILTERS"] as? String)?.split(';')

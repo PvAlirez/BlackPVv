@@ -1,4 +1,4 @@
-package com.v2ray.ang.ui
+package com.blacktun.hm.ui
 
 import android.os.Bundle
 import android.text.TextUtils
@@ -7,19 +7,19 @@ import android.view.MenuItem
 import androidx.appcompat.app.AlertDialog
 import com.blacksquircle.ui.editorkit.utils.EditorTheme
 import com.blacksquircle.ui.language.json.JsonLanguage
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.R
-import com.v2ray.ang.databinding.ActivityServerCustomConfigBinding
-import com.v2ray.ang.dto.entities.ProfileItem
-import com.v2ray.ang.enums.EConfigType
-import com.v2ray.ang.extension.toast
-import com.v2ray.ang.extension.toastSuccess
-import com.v2ray.ang.fmt.CustomFmt
-import com.v2ray.ang.handler.AngConfigManager
-import com.v2ray.ang.handler.MmkvManager
-import com.v2ray.ang.handler.SettingsChangeManager
-import com.v2ray.ang.util.LogUtil
-import com.v2ray.ang.util.Utils
+import com.blacktun.hm.AppConfig
+import com.blacktun.hm.R
+import com.blacktun.hm.databinding.ActivityServerCustomConfigBinding
+import com.blacktun.hm.dto.entities.ProfileItem
+import com.blacktun.hm.enums.EConfigType
+import com.blacktun.hm.extension.toast
+import com.blacktun.hm.extension.toastSuccess
+import com.blacktun.hm.fmt.CustomFmt
+import com.blacktun.hm.handler.AngConfigManager
+import com.blacktun.hm.handler.MmkvManager
+import com.blacktun.hm.handler.SettingsChangeManager
+import com.blacktun.hm.util.LogUtil
+import com.blacktun.hm.util.Utils
 
 class ServerCustomConfigActivity : BaseActivity() {
     private val binding by lazy { ActivityServerCustomConfigBinding.inflate(layoutInflater) }

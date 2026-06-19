@@ -1,9 +1,9 @@
-package com.v2ray.ang.fmt
+package com.blacktun.hm.fmt
 
-import com.v2ray.ang.dto.V2rayConfig
-import com.v2ray.ang.dto.entities.ProfileItem
-import com.v2ray.ang.enums.EConfigType
-import com.v2ray.ang.util.JsonUtil
+import com.blacktun.hm.dto.V2rayConfig
+import com.blacktun.hm.dto.entities.ProfileItem
+import com.blacktun.hm.enums.EConfigType
+import com.blacktun.hm.util.JsonUtil
 
 object CustomFmt : FmtBase() {
     /**

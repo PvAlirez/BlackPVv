@@ -1,12 +1,12 @@
-package com.v2ray.ang.ui
+package com.blacktun.hm.ui
 
 import android.os.Bundle
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.BuildConfig
-import com.v2ray.ang.R
-import com.v2ray.ang.core.CoreNativeManager
-import com.v2ray.ang.databinding.ActivityAboutBinding
-import com.v2ray.ang.util.Utils
+import com.blacktun.hm.AppConfig
+import com.blacktun.hm.BuildConfig
+import com.blacktun.hm.R
+import com.blacktun.hm.core.CoreNativeManager
+import com.blacktun.hm.databinding.ActivityAboutBinding
+import com.blacktun.hm.util.Utils
 
 class AboutActivity : BaseActivity() {
     private val binding by lazy { ActivityAboutBinding.inflate(layoutInflater) }

@@ -1,8 +1,8 @@
-package com.v2ray.ang.ui
+package com.blacktun.hm.ui
 
 import android.os.Bundle
-import com.v2ray.ang.R
-import com.v2ray.ang.core.CoreServiceManager
+import com.blacktun.hm.R
+import com.blacktun.hm.core.CoreServiceManager
 
 class ScStopActivity : BaseActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

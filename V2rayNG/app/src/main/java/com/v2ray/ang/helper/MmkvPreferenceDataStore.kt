@@ -1,11 +1,11 @@
-package com.v2ray.ang.helper
+package com.blacktun.hm.helper
 
 import androidx.preference.PreferenceDataStore
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.handler.MmkvManager
-import com.v2ray.ang.handler.SettingsChangeManager
-import com.v2ray.ang.handler.SettingsManager
-import com.v2ray.ang.util.LogUtil
+import com.blacktun.hm.AppConfig
+import com.blacktun.hm.handler.MmkvManager
+import com.blacktun.hm.handler.SettingsChangeManager
+import com.blacktun.hm.handler.SettingsManager
+import com.blacktun.hm.util.LogUtil
 
 /**
  * PreferenceDataStore implementation that bridges AndroidX Preference framework to MMKV storage.

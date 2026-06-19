@@ -1,4 +1,4 @@
-package com.v2ray.ang.handler
+package com.blacktun.hm.handler
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -10,13 +10,13 @@ import androidx.work.PeriodicWorkRequestBuilder
 import androidx.work.WorkerParameters
 import androidx.work.multiprocess.RemoteWorkManager
 import androidx.work.workDataOf
-import com.v2ray.ang.AngApplication
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.R
-import com.v2ray.ang.dto.entities.SubscriptionCache
-import com.v2ray.ang.enums.NotificationChannelType
-import com.v2ray.ang.util.LogUtil
-import com.v2ray.ang.util.NotificationHelper
+import com.blacktun.hm.AngApplication
+import com.blacktun.hm.AppConfig
+import com.blacktun.hm.R
+import com.blacktun.hm.dto.entities.SubscriptionCache
+import com.blacktun.hm.enums.NotificationChannelType
+import com.blacktun.hm.util.LogUtil
+import com.blacktun.hm.util.NotificationHelper
 import java.util.concurrent.TimeUnit
 
 object SubscriptionUpdater {

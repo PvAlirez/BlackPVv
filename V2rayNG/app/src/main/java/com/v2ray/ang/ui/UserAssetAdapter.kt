@@ -1,15 +1,15 @@
-package com.v2ray.ang.ui
+package com.blacktun.hm.ui
 
 import android.annotation.SuppressLint
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.v2ray.ang.R
-import com.v2ray.ang.contracts.BaseAdapterListener
-import com.v2ray.ang.databinding.ItemRecyclerUserAssetBinding
-import com.v2ray.ang.extension.toTrafficString
-import com.v2ray.ang.viewmodel.UserAssetViewModel
+import com.blacktun.hm.R
+import com.blacktun.hm.contracts.BaseAdapterListener
+import com.blacktun.hm.databinding.ItemRecyclerUserAssetBinding
+import com.blacktun.hm.extension.toTrafficString
+import com.blacktun.hm.viewmodel.UserAssetViewModel
 import java.io.File
 import java.text.DateFormat
 import java.util.Date

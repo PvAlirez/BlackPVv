@@ -1,19 +1,19 @@
-package com.v2ray.ang.ui
+package com.blacktun.hm.ui
 
 import android.os.Bundle
 import android.text.TextUtils
 import android.view.Menu
 import android.view.MenuItem
 import androidx.appcompat.app.AlertDialog
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.R
-import com.v2ray.ang.databinding.ActivityUserAssetUrlBinding
-import com.v2ray.ang.dto.entities.AssetUrlItem
-import com.v2ray.ang.extension.toast
-import com.v2ray.ang.extension.toastSuccess
-import com.v2ray.ang.handler.MmkvManager
-import com.v2ray.ang.util.LogUtil
-import com.v2ray.ang.util.Utils
+import com.blacktun.hm.AppConfig
+import com.blacktun.hm.R
+import com.blacktun.hm.databinding.ActivityUserAssetUrlBinding
+import com.blacktun.hm.dto.entities.AssetUrlItem
+import com.blacktun.hm.extension.toast
+import com.blacktun.hm.extension.toastSuccess
+import com.blacktun.hm.handler.MmkvManager
+import com.blacktun.hm.util.LogUtil
+import com.blacktun.hm.util.Utils
 import java.io.File
 
 class UserAssetUrlActivity : BaseActivity() {

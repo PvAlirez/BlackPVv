@@ -1,8 +1,8 @@
-package com.v2ray.ang.dto
+package com.blacktun.hm.dto
 
 import com.google.gson.annotations.SerializedName
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.enums.EConfigType
+import com.blacktun.hm.AppConfig
+import com.blacktun.hm.enums.EConfigType
 
 data class V2rayConfig(
     var remarks: String? = null,

@@ -1,19 +1,19 @@
-package com.v2ray.ang.service
+package com.blacktun.hm.service
 
 import android.app.Service
 import android.content.Intent
 import android.os.IBinder
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.R
-import com.v2ray.ang.core.CoreNativeManager
-import com.v2ray.ang.dto.RealPingEvent
-import com.v2ray.ang.dto.TestServiceMessage
-import com.v2ray.ang.enums.NotificationChannelType
-import com.v2ray.ang.extension.serializable
-import com.v2ray.ang.handler.MmkvManager
-import com.v2ray.ang.util.LogUtil
-import com.v2ray.ang.util.MessageUtil
-import com.v2ray.ang.util.NotificationHelper
+import com.blacktun.hm.AppConfig
+import com.blacktun.hm.R
+import com.blacktun.hm.core.CoreNativeManager
+import com.blacktun.hm.dto.RealPingEvent
+import com.blacktun.hm.dto.TestServiceMessage
+import com.blacktun.hm.enums.NotificationChannelType
+import com.blacktun.hm.extension.serializable
+import com.blacktun.hm.handler.MmkvManager
+import com.blacktun.hm.util.LogUtil
+import com.blacktun.hm.util.MessageUtil
+import com.blacktun.hm.util.NotificationHelper
 import java.util.Collections
 
 class CoreTestService : Service() {

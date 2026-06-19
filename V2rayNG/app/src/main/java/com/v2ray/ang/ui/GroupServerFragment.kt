@@ -1,4 +1,4 @@
-package com.v2ray.ang.ui
+package com.blacktun.hm.ui
 
 import android.content.Intent
 import android.os.Bundle
@@ -12,23 +12,23 @@ import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.R
-import com.v2ray.ang.contracts.MainAdapterListener
-import com.v2ray.ang.databinding.FragmentGroupServerBinding
-import com.v2ray.ang.databinding.ItemQrcodeBinding
-import com.v2ray.ang.dto.entities.ProfileItem
-import com.v2ray.ang.enums.EConfigType
-import com.v2ray.ang.extension.isComplexType
-import com.v2ray.ang.extension.toast
-import com.v2ray.ang.extension.toastError
-import com.v2ray.ang.extension.toastSuccess
-import com.v2ray.ang.handler.AngConfigManager
-import com.v2ray.ang.handler.MmkvManager
-import com.v2ray.ang.handler.SettingsChangeManager
-import com.v2ray.ang.helper.SimpleItemTouchHelperCallback
-import com.v2ray.ang.util.LogUtil
-import com.v2ray.ang.viewmodel.MainViewModel
+import com.blacktun.hm.AppConfig
+import com.blacktun.hm.R
+import com.blacktun.hm.contracts.MainAdapterListener
+import com.blacktun.hm.databinding.FragmentGroupServerBinding
+import com.blacktun.hm.databinding.ItemQrcodeBinding
+import com.blacktun.hm.dto.entities.ProfileItem
+import com.blacktun.hm.enums.EConfigType
+import com.blacktun.hm.extension.isComplexType
+import com.blacktun.hm.extension.toast
+import com.blacktun.hm.extension.toastError
+import com.blacktun.hm.extension.toastSuccess
+import com.blacktun.hm.handler.AngConfigManager
+import com.blacktun.hm.handler.MmkvManager
+import com.blacktun.hm.handler.SettingsChangeManager
+import com.blacktun.hm.helper.SimpleItemTouchHelperCallback
+import com.blacktun.hm.util.LogUtil
+import com.blacktun.hm.viewmodel.MainViewModel
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 

@@ -1,12 +1,12 @@
-package com.v2ray.ang.ui
+package com.blacktun.hm.ui
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.v2ray.ang.databinding.ItemRecyclerBypassListBinding
-import com.v2ray.ang.dto.AppInfo
-import com.v2ray.ang.viewmodel.PerAppProxyViewModel
+import com.blacktun.hm.databinding.ItemRecyclerBypassListBinding
+import com.blacktun.hm.dto.AppInfo
+import com.blacktun.hm.viewmodel.PerAppProxyViewModel
 
 class PerAppProxyAdapter(
     val apps: List<AppInfo>,
